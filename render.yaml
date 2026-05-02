@@ -2,7 +2,6 @@ services:
   - type: web
     name: smart-discharge-analyzer-api
     runtime: docker
-    rootDir: backend
     dockerfilePath: ./Dockerfile
     plan: free
     healthCheckPath: /api/health
